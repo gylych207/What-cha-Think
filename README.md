@@ -2,7 +2,7 @@
 
 ## Project Description
 
-What-cha-Think is an Airtable and React build where the user is able to leave reviews for different different forms of entertainment. From the homepage, the user is able to navigate to and click on an icon for film reviews, television reviews or sporting-event reviews. Each respective page will lead to a feed of past reviews and a form to create new reviews. Each review will be deletable.
+What-cha-Think is an Airtable and React build where the user is able to leave reviews for various forms of entertainment. From the homepage, the user is able to navigate to and click on an icon that leads to a corresponding page for film, television or sporting-event reviews. Each respective page will lead to a feed of past reviews and a form to create new reviews. Each review will be deletable.
 
 ## Wireframes
 
@@ -14,54 +14,85 @@ Show your component hierarchy here! Use [this](https://cms-assets.tutsplus.com/u
 
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+https://airtable.com/shrTv92TftYf4SVZZ
+
+Airtable is returning the data for this base as follows:
+
+```
+{
+    "records": [
+        {
+            "id": "recjruUyWVhOO6mJP",
+            "fields": {
+                "title": "The Godfather",
+                "rating": 5,
+                "opinion": "A classic cinematic theme executed perfectly. The acting, spearheaded by Marlon Brando, made the story memorable. "
+            },
+            "createdTime": "2020-10-09T00:27:04.000Z"
+        },
+        {
+            "id": "rec85tP6Ra4a3JiKL",
+            "fields": {
+                "title": "Independence Day",
+                "rating": 3,
+                "opinion": "This movie was not very good in terms of cinematic quality, however it smells of nostalgia which I can't help but enjoy every July 4th. "
+            },
+            "createdTime": "2020-10-09T00:27:04.000Z"
+        }
+    ],
+    "offset": "rec85tP6Ra4a3JiKL"
+}
+
+```
 
 ### MVP/PostMVP
 
-The functionality will then be divided into two separate lists: MPV and PostMVP. Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.
-
 #### MVP
 
-_These are examples only. Replace with your own MVP features._
-
-- Find and use external api
-- Render data on page
-- Allow user to choose favorites
+- Home page with clickable icons that route to each respective feed.
+- Get and post sports, film and television reviews from Airtable.
+- Use forms to create reviews and update Airtable.
+- Delete posts from the feed and airtable.
 
 #### PostMVP
 
-_These are examples only. Replace with your own Post-MVP features._
-
-- Add second API
-- Use local storage to save user favorites
+- Collaborate with a UX student to make the UI more user friendly.
+- Add a search bar to each review page to find reviews via keywords in the title.
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
-
-| Day        | Deliverable                                        | Status     |
-| ---------- | -------------------------------------------------- | ---------- |
-| July 10-12 | Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete |
-| July 13    | Project Approval                                   | Incomplete |
-| July 13    | Core Application Structure (HTML, CSS, etc.)       | Incomplete |
-| July 14    | Pseudocode / actual code                           | Incomplete |
-| July 15    | Initial Clickable Model                            | Incomplete |
-| July 16    | MVP                                                | Incomplete |
-| July 17    | Presentations                                      | Incomplete |
+| Day      | Deliverable                                | Status     |
+| -------- | ------------------------------------------ | ---------- |
+| Oct 9-11 | Proposal Approval / Airtable Setup         | Incomplete |
+| Oct 11   | Component Creation / Get, Set, Delete Data | Incomplete |
+| Oct 12   | Oct. 11 cont'd / CSS Components            | Incomplete |
+| Oct 13   | CSS Components cont'd / MVP                | Incomplete |
+| Oct 14   | Advanced CSS                               | Incomplete |
+| Oct 15   | Presentations                              | Incomplete |
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle. You have limited time to code all phases of the game. Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
-| Component        | Priority | Estimated Time | Time Invested | Actual Time |
-| ---------------- | :------: | :------------: | :-----------: | :---------: |
-| Adding Form      |    H     |      3hrs      |    3.5hrs     |   3.5hrs    |
-| Working with API |    H     |      3hrs      |    2.5hrs     |   2.5hrs    |
-| Total            |    H     |      6hrs      |     5hrs      |    5hrs     |
+| Component                 | Priority | Estimated Time | Time Invested | Actual Time |
+| ------------------------- | :------: | :------------: | :-----------: | :---------: |
+| Proposal                  |    H     |      2hrs      |     2hrs      |    2hrs     |
+| Airtable setup            |    H     |     .5hrs      |               |             |
+| Clickable icons           |    H     |      1hrs      |               |             |
+| Data population pg 1      |    H     |      3hrs      |               |             |
+| Data population pg 2      |    H     |      3hrs      |               |             |
+| Data population pg 3      |    H     |      3hrs      |               |             |
+| Form creation pg 1        |    H     |      2hrs      |               |             |
+| Form creation pg 2        |    H     |      2hrs      |               |             |
+| Form creation pg 3        |    H     |      2hrs      |               |             |
+| Data creation/update pg 1 |    H     |      3hrs      |               |             |
+| Data creation/update pg 2 |    H     |      3hrs      |               |             |
+| Data creation/update pg 3 |    H     |      3hrs      |               |             |
+| Data deletion pg 1        |    H     |      2hrs      |               |             |
+| Data deletion pg 2        |    H     |      2hrs      |               |             |
+| Data deletion pg 3        |    H     |      2hrs      |               |             |
+| Component CSS pg 1        |    H     |      3hrs      |               |             |
+| Component CSS pg 2        |    H     |      3hrs      |               |             |
+| Component CSS pg 3        |    H     |      3hrs      |               |             |
+| Total                     |    H     |    42.5hrs     |     2hrs      |    2hrs     |
 
 ## SWOT Analysis
 

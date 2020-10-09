@@ -6,7 +6,7 @@ What-cha-Think is an Airtable and React build where the user is able to leave re
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+![imageAlt](https://imgur.com/UL0Q0yh)
 
 ## Component Hierarchy
 

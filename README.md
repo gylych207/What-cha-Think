@@ -2,7 +2,7 @@
 
 ## Project Description
 
-What-cha-Think is an Airtable and React build where the user is able to leave reviews for various forms of entertainment. From the homepage, the user is able to navigate to and click on an icon that leads to a corresponding page for film, television or sporting-event reviews. Each respective page will lead to a feed of past reviews and a form to create new reviews. Each review will be deletable.
+What-cha-Think is an Airtable and React build where the user is able to leave reviews for various forms of entertainment. From the homepage, the user is able to navigate to and click on an icon that leads to a corresponding page populated with film, television or sporting-event reviews. Each respective page will lead to a feed of past reviews and a form to create new reviews. Each review will be deletable.
 
 ## Wireframes
 
@@ -12,7 +12,7 @@ The wireframes below depict the homepage and review feed for What-cha-Think in w
 
 ## Component Hierarchy
 
-![imageAlt](https://i.imgur.com/Hwk9zm8.png)
+![imageAlt](https://i.imgur.com/cTjNnzl.png)
 
 ## API and Data Sample
 
@@ -58,7 +58,7 @@ Airtable is returning the data for this base as follows:
 
 #### PostMVP
 
-- Collaborate with a UX student to make the UI more user friendly.
+- Collaborate with a UX student to make the UI more attractive/user-friendly.
 - Add a search bar to each review page to find reviews via keywords in the title.
 
 ## Project Schedule
@@ -100,8 +100,16 @@ Airtable is returning the data for this base as follows:
 
 ### Strengths:
 
+I have a good understanding of what i want my application to look like and what exactly I want it to do. As such, I can better plan for what needs to be done and how long it will take. I also know which labs and excercise I can reference if I get lost along the way.
+
 ### Weaknesses:
+
+I am still not terribly clear on CRUD and how to make sure I can carry each aspect out for this project. Additionally, I prefer to stick to functional components but given the parameters of the project, I'll need to use class components, as well. I will likely use most of my research time/manager help on these matters.
 
 ### Opportunities:
 
+This project is the culmination of the last 2 weeks and will give me an opportunity to solidify my understanding of react. I also happen to be interested in the function of my app given my interests, so I am motivated to make it look usable and attractive.
+
 ### Threats:
+
+Whenever I get stuck with an error or an issue, I tend to go down a rabbit hole of online searches and debugging. Often times, I don't timebox these episodes and lose a lot of time. While this is typically a favorable characteristic in a developer, I'll need to make sure I know when to ask for help.

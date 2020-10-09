@@ -6,7 +6,7 @@ What-cha-Think is an Airtable and React build where the user is able to leave re
 
 ## Wireframes
 
-![imageAlt](https://imgur.com/UL0Q0yh)
+![imageAlt](https://i.imgur.com/UL0Q0yh.png)
 
 ## Component Hierarchy
 

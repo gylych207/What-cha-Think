@@ -6,13 +6,13 @@ What-cha-Think is an Airtable and React build where the user is able to leave re
 
 ## Wireframes
 
-The wireframes below depict the homepage and review feed for What-cha-Think in web, tablet and phone format. The homepage contains a header displaying the app title and three clickable icons - movies, television and sports - that route to each respective review feed. The review feeds contain an input form and submit button for review data. Below the form is a feed of all past forms. The screens will center as screen size decreases.
+The wireframes below depict the homepage and review feed for What-cha-Think in web, tablet and phone format. The homepage contains a header displaying the app title and three clickable icons - movies, television and sports - that route to each respective review feed. The review feeds contain an input form and submit button for review data. Below the form is a feed of all past forms, along with a delete button for each post. The screens will center as screen size decreases.
 
-![imageAlt](https://i.imgur.com/UL0Q0yh.png)
+![imageAlt](https://i.imgur.com/IX2UVl9.png)
 
 ## Component Hierarchy
 
-![imageAlt](https://i.imgur.com/cTjNnzl.png)
+![imageAlt](https://i.imgur.com/i2hG33U.png)
 
 ## API and Data Sample
 

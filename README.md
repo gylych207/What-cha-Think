@@ -12,7 +12,7 @@ The wireframes below depict the homepage and review feed for What-cha-Think in w
 
 ## Component Hierarchy
 
-![imageAlt](https://i.imgur.com/i2hG33U.png)
+![imageAlt](https://i.imgur.com/dBAvsEH.png)
 
 ## API and Data Sample
 
@@ -52,13 +52,14 @@ Airtable is returning the data for this base as follows:
 #### MVP
 
 - Home page with clickable icons that route to each respective feed.
-- Get and post sports, film and television reviews from Airtable.
+- Get and post film reviews from Airtable.
 - Use forms to create reviews and update Airtable.
 - Delete posts from the feed and airtable.
 
 #### PostMVP
 
 - Collaborate with a UX student to make the UI more attractive/user-friendly.
+- Get and post TV and sports reviews in separate routed icon links.
 - Add a search bar to each review page to find reviews via keywords in the title.
 
 ## Project Schedule

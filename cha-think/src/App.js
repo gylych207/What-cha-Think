@@ -29,7 +29,6 @@ function App() {
         setFetchReviews={setFetchReviews}
       />
       {movies.map((movie) => (
-        /* Review component has a prop called review with a value of review (from map) */
         <Review
           key={movie.id}
           movie={movie}

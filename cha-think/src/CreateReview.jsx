@@ -7,17 +7,13 @@ function CreateReview(props) {
   const [opinion, setOpinion] = useState("");
 
   const handleSubmit = async (e) => {
-    // prevent page reload.
     e.preventDefault();
-    // we have to make a fields object that holds the title, text and author
     const fields = {
       title,
       rating,
       opinion,
     };
-    // make a POST request to our endpoint to create new data
     const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/movies`;
-    // await axios.methodName(URL, request.body??, options)
     await axios.post(
       airtableURL,
       { fields },
@@ -27,9 +23,7 @@ function CreateReview(props) {
         },
       }
     );
-    // make another GET request?????
     props.setFetchReviews(!props.fetchReviews);
-    // clear out our inputs so we can type something new in
     setTitle("");
     setRating("");
     setOpinion("");

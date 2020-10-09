@@ -12,7 +12,7 @@ The wireframes below depict the homepage and review feed for What-cha-Think in w
 
 ## Component Hierarchy
 
-![imageAlt](https://i.imgur.com/dBAvsEH.png)
+![imageAlt](https://i.imgur.com/PhRA82l.png)
 
 ## API and Data Sample
 

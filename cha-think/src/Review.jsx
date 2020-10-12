@@ -7,7 +7,7 @@ function Review(props) {
   const handleDelete = async () => {
     setDeleted(true);
     setTimeout(async () => {
-      const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/${props.items}/${props.item.id}`;
+      const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/${props.type}/${props.item.id}`;
       await axios.delete(airtableURL, {
         headers: {
           Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,

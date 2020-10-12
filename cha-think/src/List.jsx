@@ -3,17 +3,16 @@ import CreateReview from "./CreateReview";
 import Review from "./Review";
 
 function List(props) {
-  // const [items, setItems] = useState([]);
-  // const [fetchItems, setFetchItems] = useState(false);
-
   return (
     <div>
       <CreateReview
         fetchItems={props.fetchItems}
         setFetchItems={props.setFetchItems}
+        type={props.type}
       />
       {props.items.map((item) => (
         <Review
+          type={props.type}
           key={props.item.id}
           item={props.item}
           fetchItems={props.fetchItems}

@@ -13,7 +13,7 @@ function CreateReview(props) {
       rating,
       opinion,
     };
-    const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/${props.items}`;
+    const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/${props.type}`;
     await axios.post(
       airtableURL,
       { fields },

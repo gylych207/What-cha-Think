@@ -26,22 +26,45 @@ function App() {
     getItems();
   }, [fetchMovieReviews]);
 
+  useEffect(() => {
+    const getItems = async () => {
+      const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/television`;
+      const response = await axios.get(airtableURL, {
+        headers: {
+          Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
+        },
+      });
+      setTelevision(response.data.records);
+    };
+    getItems();
+  }, [fetchTelevisionReviews]);
+
+  useEffect(() => {
+    const getItems = async () => {
+      const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/sports`;
+      const response = await axios.get(airtableURL, {
+        headers: {
+          Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
+        },
+      });
+      setSports(response.data.records);
+    };
+    getItems();
+  }, [fetchSportsReviews]);
+
   return (
     <div className="App">
       <div>
-        <header>What-cha-Think</header>
-        <ul>
-          <li>
-            <Link to="/movies">Movies</Link>
-          </li>
-          <li>
-            <Link to="/television">Television</Link>
-          </li>
-          <li>
-            <Link to="/sports">Sports</Link>
-          </li>
-        </ul>
+        <Link to="/">
+          <header>What-cha-Think</header>
+        </Link>
+        <section>
+          <Link to="/movies">Movies</Link>
+          <Link to="/television">Television</Link>
+          <Link to="/sports">Sports</Link>
+        </section>
       </div>
+      <Route exact path="/"></Route>
       <Route path="/movies">
         <List
           type="movies"

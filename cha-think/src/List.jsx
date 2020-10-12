@@ -13,8 +13,8 @@ function List(props) {
       {props.items.map((item) => (
         <Review
           type={props.type}
-          key={props.item.id}
-          item={props.item}
+          key={item.id}
+          item={item}
           fetchItems={props.fetchItems}
           setFetchItems={props.setFetchItems}
         />

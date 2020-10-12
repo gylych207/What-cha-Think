@@ -14,7 +14,7 @@ function App() {
   const [fetchSportsReviews, setFetchSportsReviews] = useState(false);
 
   useEffect(() => {
-    const getItems = async () => {
+    const getMovies = async () => {
       const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/movies`;
       const response = await axios.get(airtableURL, {
         headers: {
@@ -23,11 +23,11 @@ function App() {
       });
       setMovies(response.data.records);
     };
-    getItems();
+    getMovies();
   }, [fetchMovieReviews]);
 
   useEffect(() => {
-    const getItems = async () => {
+    const getTelevision = async () => {
       const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/television`;
       const response = await axios.get(airtableURL, {
         headers: {
@@ -36,11 +36,11 @@ function App() {
       });
       setTelevision(response.data.records);
     };
-    getItems();
+    getTelevision();
   }, [fetchTelevisionReviews]);
 
   useEffect(() => {
-    const getItems = async () => {
+    const getSports = async () => {
       const airtableURL = `https://api.airtable.com/v0/${process.env.REACT_APP_AIRTABLE_BASE}/sports`;
       const response = await axios.get(airtableURL, {
         headers: {
@@ -49,7 +49,7 @@ function App() {
       });
       setSports(response.data.records);
     };
-    getItems();
+    getSports();
   }, [fetchSportsReviews]);
 
   return (

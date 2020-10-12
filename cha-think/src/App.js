@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import CreateReview from "./CreateReview";
-import Review from "./Review";
+import CreateMovieReview from "./CreateMovieReview";
+import MovieReview from "./MovieReview";
 import "./App.css";
 
 function App() {
   const [movies, setMovies] = useState([]);
-  const [fetchReviews, setFetchReviews] = useState(false);
+  const [fetchMovieReviews, setFetchMovieReviews] = useState(false);
 
   useEffect(() => {
     const getMovies = async () => {
@@ -19,23 +19,24 @@ function App() {
       setMovies(response.data.records);
     };
     getMovies();
-  }, [fetchReviews]);
+  }, [fetchMovieReviews]);
 
   return (
     <div className="App">
       <h1>What-cha-Think</h1>
-      <CreateReview
-        fetchReviews={fetchReviews}
-        setFetchReviews={setFetchReviews}
+      <CreateMovieReview
+        fetchMovieReviews={fetchMovieReviews}
+        setFetchMovieReviews={setFetchMovieReviews}
       />
       {movies.map((movie) => (
-        <Review
+        <MovieReview
           key={movie.id}
           movie={movie}
-          fetchReviews={fetchReviews}
-          setFetchReviews={setFetchReviews}
+          fetchMovieReviews={fetchMovieReviews}
+          setFetchMovieReviews={setFetchMovieReviews}
         />
       ))}
+      <footer>2020 © Mika Nur</footer>
     </div>
   );
 }

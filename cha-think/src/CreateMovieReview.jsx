@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-function CreateReview(props) {
+function CreateMovieReview(props) {
   const [title, setTitle] = useState("");
   const [rating, setRating] = useState("");
   const [opinion, setOpinion] = useState("");
@@ -23,7 +23,7 @@ function CreateReview(props) {
         },
       }
     );
-    props.setFetchReviews(!props.fetchReviews);
+    props.setFetchMovieReviews(!props.fetchMovieReviews);
     setTitle("");
     setRating("");
     setOpinion("");
@@ -58,4 +58,4 @@ function CreateReview(props) {
   );
 }
 
-export default CreateReview;
+export default CreateMovieReview;

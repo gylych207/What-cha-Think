@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-function Review(props) {
+function MovieReview(props) {
   const [deleted, setDeleted] = useState(false);
 
   const handleDelete = async () => {
@@ -13,7 +13,7 @@ function Review(props) {
           Authorization: `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
         },
       });
-      props.setFetchReviews(!props.fetchReviews);
+      props.setFetchMovieReviews(!props.fetchMovieReviews);
       setDeleted(false);
     }, 2000);
   };
@@ -28,4 +28,4 @@ function Review(props) {
   );
 }
 
-export default Review;
+export default MovieReview;

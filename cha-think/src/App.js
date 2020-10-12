@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Link, Route } from "react-router-dom";
-import CreateReview from "./CreateReview";
-import Review from "./Review";
+// import CreateReview from "./CreateReview";
+// import Review from "./Review";
 import List from "./List";
 import "./App.css";
 
@@ -26,11 +26,11 @@ function App() {
   return (
     <div className="App">
       <h1>What-cha-Think</h1>
-      <nav>
-        <Link to="/movies">
-          <a>Movies</a>
-        </Link>
-      </nav>
+      <ul>
+        <li>
+          <Link to="/movies">Movies</Link>
+        </li>
+      </ul>
       <Route path="/movies">
         <List
           items={movies}

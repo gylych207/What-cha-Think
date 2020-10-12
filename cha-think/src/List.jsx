@@ -8,13 +8,16 @@ function List(props) {
 
   return (
     <div>
-      <CreateReview fetchItems={fetchItems} setFetchItems={setFetchItems} />
-      {items.map((item) => (
+      <CreateReview
+        fetchItems={props.fetchItems}
+        setFetchItems={props.setFetchItems}
+      />
+      {props.items.map((item) => (
         <Review
-          key={item.id}
-          item={item}
-          fetchItems={fetchItems}
-          setFetchItems={setFetchItems}
+          key={props.item.id}
+          item={props.item}
+          fetchItems={props.fetchItems}
+          setFetchItems={props.setFetchItems}
         />
       ))}
     </div>

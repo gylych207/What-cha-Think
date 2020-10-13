@@ -53,7 +53,7 @@ function App() {
 
   return (
     <div className="App">
-      <div>
+      <div className="navigation">
         <Link to="/">
           <header>What-cha-Think</header>
         </Link>

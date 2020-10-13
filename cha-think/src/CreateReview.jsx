@@ -46,10 +46,10 @@ function CreateReview(props) {
         onChange={(e) => setRating(e.target.value)}
       />
       <label htmlFor="opinion">Opinion:</label>
-      <input
+      <textarea
         id="textboxid"
         name="opinion"
-        type="text-area"
+        type="text"
         value={opinion}
         onChange={(e) => setOpinion(e.target.value)}
       />

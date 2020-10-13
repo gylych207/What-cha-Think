@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Link, Route } from "react-router-dom";
-import Review from "./Review";
 import List from "./List";
 import "./App.css";
 

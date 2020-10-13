@@ -21,7 +21,7 @@ function Review(props) {
   return (
     <div className="review">
       <h3>{props.item.fields.title}</h3>
-      <h4>{props.item.fields.rating}</h4>
+      <h4>Rating: {props.item.fields.rating}</h4>
       <h5>{props.item.fields.opinion}</h5>
       <button onClick={handleDelete}>{deleted ? "Deleted" : "Delete"}</button>
     </div>

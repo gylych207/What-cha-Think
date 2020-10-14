@@ -5,7 +5,7 @@ import "./App.css";
 
 function List(props) {
   return (
-    <div>
+    <div className="list">
       <CreateReview
         fetchItems={props.fetchItems}
         setFetchItems={props.setFetchItems}

@@ -2,6 +2,9 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Link, Route } from "react-router-dom";
 import List from "./List";
+import Header from "./Header";
+import Footer from "./Footer";
+import Links from "./Links";
 import "./App.css";
 
 function App() {
@@ -53,15 +56,16 @@ function App() {
 
   return (
     <div className="App">
-      <div className="navigation">
+      <div>
         <Link to="/">
-          <header>What-cha-Think</header>
+          <Header />
         </Link>
-        <section>
+        {/* <section>
           <Link to="/movies">Movies</Link>
           <Link to="/television">Television</Link>
           <Link to="/sports">Sports</Link>
-        </section>
+        </section> */}
+        <Links />
       </div>
       <Route exact path="/"></Route>
       <Route path="/movies">
@@ -91,7 +95,7 @@ function App() {
           setFetchItems={setFetchSportsReviews}
         />
       </Route>
-      <footer>2020 © Mika Nur</footer>
+      <Footer />
     </div>
   );
 }

@@ -31,7 +31,7 @@ function CreateReview(props) {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form id="frame" onSubmit={handleSubmit}>
       <label htmlFor="title">Title:</label>
       <input
         name="title"

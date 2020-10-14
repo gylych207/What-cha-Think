@@ -60,11 +60,6 @@ function App() {
         <Link to="/">
           <Header />
         </Link>
-        {/* <section>
-          <Link to="/movies">Movies</Link>
-          <Link to="/television">Television</Link>
-          <Link to="/sports">Sports</Link>
-        </section> */}
         <Links />
       </div>
       <Route exact path="/"></Route>

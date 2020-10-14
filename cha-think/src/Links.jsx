@@ -6,13 +6,25 @@ function Links(props) {
   return (
     <section>
       <Link to="/sports">
-        <img src="https://i.imgur.com/roPMovZ.png" alt="Sports" />
+        <img
+          id="section-width"
+          src="https://i.imgur.com/roPMovZ.png"
+          alt="Sports"
+        />
       </Link>
       <Link to="/movies">
-        <img src="https://i.imgur.com/JCJMLNR.png" alt="Movies" />
+        <img
+          id="section-width"
+          src="https://i.imgur.com/JCJMLNR.png"
+          alt="Movies"
+        />
       </Link>
       <Link to="/television">
-        <img src="https://i.imgur.com/Qo8TbSs.png" alt="Television" />
+        <img
+          id="tv-section-width"
+          src="https://i.imgur.com/Qo8TbSs.png"
+          alt="Television"
+        />
       </Link>
     </section>
   );

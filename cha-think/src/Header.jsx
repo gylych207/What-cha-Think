@@ -4,7 +4,11 @@ import "./App.css";
 function Header(props) {
   return (
     <header>
-      <img src="https://i.imgur.com/tvgaxco.png" alt="What-cha-Think logo" />
+      <img
+        id="header-size"
+        src="https://i.imgur.com/tvgaxco.png"
+        alt="What-cha-Think logo"
+      />
     </header>
   );
 }

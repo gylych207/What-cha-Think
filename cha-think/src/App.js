@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { Link, Route } from "react-router-dom";
-import List from "./List";
-import Header from "./Header";
-import Footer from "./Footer";
-import Links from "./Links";
-import HomePage from "./HomePage";
+import List from "../src/components/List";
+import Header from "../src/components/Header";
+import Footer from "../src/components/Footer";
+import Links from "../src/components/Links";
+import HomePage from "../src/components/HomePage";
 import "./App.css";
 
 function App() {

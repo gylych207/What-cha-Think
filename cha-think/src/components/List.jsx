@@ -1,7 +1,7 @@
 import React from "react";
 import CreateReview from "./CreateReview";
 import Review from "./Review";
-import "./App.css";
+import "../App.css";
 
 function List(props) {
   return (

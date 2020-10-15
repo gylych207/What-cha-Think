@@ -1,6 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
-import "./App.css";
+import "../App.css";
 
 function HomePage(props) {
   return (

@@ -82,7 +82,7 @@ Section {
   font-size: 14pt;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1500px) {
   .review {
     width: 350px;
   }
@@ -98,7 +98,7 @@ Section {
     width: 150px;
   }
   .typical-text {
-    padding-bottom: 850px;
+    padding-bottom: 1200px;
   }
 }
 @media screen and (max-width: 400px) {

@@ -63,11 +63,9 @@ function App() {
         </Link>
         <Links />
       </div>
-      <body>
-        <Route exact path="/">
-          <HomePage />
-        </Route>
-      </body>
+      <Route exact path="/">
+        <HomePage />
+      </Route>
       <Route path="/movies">
         <List
           type="movies"

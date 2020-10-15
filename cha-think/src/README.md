@@ -1,5 +1,7 @@
 # What-cha-Think
 
+https://jolly-kare-8a9826.netlify.app/
+
 ## Project Description
 
 What-cha-Think is an Airtable and React build where the user is able to leave reviews for various forms of entertainment. From the homepage, the user is able to navigate to and click on an icon that leads to a corresponding page populated with film, television or sporting-event reviews. Each respective page will lead to a feed of past reviews and a form to create new reviews. Each review will be deletable.
@@ -64,38 +66,38 @@ Airtable is returning the data for this base as follows:
 
 ## Project Schedule
 
-| Day      | Deliverable                                | Status     |
-| -------- | ------------------------------------------ | ---------- |
-| Oct 9-11 | Proposal Approval / Airtable Setup         | Incomplete |
-| Oct 12   | Component Creation / Get, Set, Delete Data | Incomplete |
-| Oct 13   | Oct. 12 cont'd / CSS Components            | Incomplete |
-| Oct 14   | CSS Components cont'd / MVP                | Incomplete |
-| Oct 15   | Advanced CSS                               | Incomplete |
-| Oct 16   | Presentations                              | Incomplete |
+| Day      | Deliverable                                | Status   |
+| -------- | ------------------------------------------ | -------- |
+| Oct 9-11 | Proposal Approval / Airtable Setup         | Complete |
+| Oct 12   | Component Creation / Get, Set, Delete Data | Complete |
+| Oct 13   | Oct. 12 cont'd / CSS Components            | Complete |
+| Oct 14   | CSS Components cont'd / MVP                | Complete |
+| Oct 15   | Advanced CSS                               | Complete |
+| Oct 16   | Presentations                              | Complete |
 
 ## Timeframes
 
 | Component                 | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------------- | :------: | :------------: | :-----------: | :---------: |
 | Proposal                  |    H     |      2hrs      |     2hrs      |    2hrs     |
-| Airtable setup            |    H     |     .5hrs      |               |             |
-| Clickable icons           |    H     |      1hrs      |               |             |
-| Data population pg 1      |    H     |      3hrs      |               |             |
-| Data population pg 2      |    H     |      3hrs      |               |             |
-| Data population pg 3      |    H     |      3hrs      |               |             |
-| Form creation pg 1        |    H     |      2hrs      |               |             |
-| Form creation pg 2        |    H     |      2hrs      |               |             |
-| Form creation pg 3        |    H     |      2hrs      |               |             |
-| Data creation/update pg 1 |    H     |      3hrs      |               |             |
-| Data creation/update pg 2 |    H     |      3hrs      |               |             |
-| Data creation/update pg 3 |    H     |      3hrs      |               |             |
-| Data deletion pg 1        |    H     |      2hrs      |               |             |
-| Data deletion pg 2        |    H     |      2hrs      |               |             |
-| Data deletion pg 3        |    H     |      2hrs      |               |             |
-| Component CSS pg 1        |    H     |      3hrs      |               |             |
-| Component CSS pg 2        |    H     |      3hrs      |               |             |
-| Component CSS pg 3        |    H     |      3hrs      |               |             |
-| Total                     |    H     |    42.5hrs     |     2hrs      |    2hrs     |
+| Airtable setup            |    H     |     .5hrs      |      1hr      |     1hr     |
+| Clickable icons           |    H     |      1hrs      |      1hr      |     1hr     |
+| Data population pg 1      |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Data population pg 2      |    H     |      3hrs      |     2hrs      |    2hrs     |
+| Data population pg 3      |    H     |      3hrs      |     2hrs      |    2hrs     |
+| Form creation pg 1        |    H     |      2hrs      |     2hrs      |    2hrs     |
+| Form creation pg 2        |    H     |      2hrs      |     1 hr      |    1 hr     |
+| Form creation pg 3        |    H     |      2hrs      |     1 hr      |     1hr     |
+| Data creation/update pg 1 |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Data creation/update pg 2 |    H     |      3hrs      |      1hr      |     1hr     |
+| Data creation/update pg 3 |    H     |      3hrs      |      1hr      |     1hr     |
+| Data deletion pg 1        |    H     |      2hrs      |      1hr      |     1hr     |
+| Data deletion pg 2        |    H     |      2hrs      |      1hr      |     1hr     |
+| Data deletion pg 3        |    H     |      2hrs      |      1hr      |     1hr     |
+| Component CSS pg 1        |    H     |      3hrs      |     4hrs      |    4hrs     |
+| Component CSS pg 2        |    H     |      3hrs      |     4hrs      |    4hrs     |
+| Component CSS pg 3        |    H     |      3hrs      |     4hrs      |    4hrs     |
+| Total                     |    H     |    42.5hrs     |     35hrs     |    35hrs    |
 
 ## SWOT Analysis
 

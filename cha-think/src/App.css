@@ -15,7 +15,7 @@ footer {
 
 header {
   margin-bottom: 40px;
-  margin-top: 15px;
+  padding-top: 15px;
   text-align: center;
 }
 
@@ -50,6 +50,14 @@ Section {
   display: flex;
   justify-content: space-evenly;
   margin: 10px;
+}
+
+.typical-text {
+  padding-bottom: 330px;
+  padding-top: 75px;
+  padding-left: 250px;
+  font-family: "Fredoka One", cursive;
+  font-size: 50px;
 }
 
 #frame {

@@ -5,6 +5,7 @@ import List from "./List";
 import Header from "./Header";
 import Footer from "./Footer";
 import Links from "./Links";
+import HomePage from "./HomePage";
 import "./App.css";
 
 function App() {
@@ -62,7 +63,11 @@ function App() {
         </Link>
         <Links />
       </div>
-      <Route exact path="/"></Route>
+      <body>
+        <Route exact path="/">
+          <HomePage />
+        </Route>
+      </body>
       <Route path="/movies">
         <List
           type="movies"

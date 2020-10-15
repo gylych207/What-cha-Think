@@ -1,5 +1,9 @@
 .App {
   background-image: url("https://i.imgur.com/wiRlTV2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
 }
 
 footer {
@@ -49,15 +53,25 @@ form {
 Section {
   display: flex;
   justify-content: space-evenly;
-  margin: 10px;
+  margin: 40px;
 }
 
 .typical-text {
-  padding-bottom: 330px;
-  padding-top: 75px;
-  padding-left: 250px;
+  /* padding-bottom: 330px;
+  padding-top: 50px;
+  padding-left: 250px; */
+  display: flex;
+  justify-content: center;
   font-family: "Fredoka One", cursive;
   font-size: 50px;
+}
+
+#section-width {
+  width: 150px;
+}
+
+#tv-section-width {
+  width: 220px;
 }
 
 #frame {
@@ -91,5 +105,8 @@ Section {
   }
   #header-size {
     width: 370px;
+  }
+  .typical-text {
+    font-size: 20px;
   }
 }

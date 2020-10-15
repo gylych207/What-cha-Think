@@ -6,7 +6,7 @@ function Header(props) {
     <header>
       <img
         id="header-size"
-        src="https://i.imgur.com/tvgaxco.png"
+        src="https://i.imgur.com/bOdiQmO.png"
         alt="What-cha-Think logo"
       />
     </header>

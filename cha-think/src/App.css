@@ -11,9 +11,10 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
+  /* padding-top: 27px;
+  padding-bottom: 17px; */
   text-align: center;
   background-color: rgb(195, 255, 0);
-  padding-top: 5px;
   border: 1px solid black;
 }
 
@@ -57,9 +58,7 @@ Section {
 }
 
 .typical-text {
-  /* padding-bottom: 330px;
-  padding-top: 50px;
-  padding-left: 250px; */
+  padding-bottom: 400px;
   display: flex;
   justify-content: center;
   font-family: "Fredoka One", cursive;
@@ -98,6 +97,9 @@ Section {
   #tv-section-width {
     width: 150px;
   }
+  .typical-text {
+    padding-bottom: 850px;
+  }
 }
 @media screen and (max-width: 400px) {
   .review {
@@ -108,5 +110,6 @@ Section {
   }
   .typical-text {
     font-size: 20px;
+    padding-bottom: 600px;
   }
 }

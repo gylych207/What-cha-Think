@@ -48,7 +48,7 @@ function CreateReview(props) {
       />
       <label htmlFor="opinion">Opinion:</label>
       <textarea
-        id="textboxid"
+        id="text-box-id"
         name="opinion"
         type="text"
         value={opinion}

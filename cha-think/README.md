@@ -4,13 +4,13 @@ https://jolly-kare-8a9826.netlify.app/
 
 ## Project Description
 
-What-cha-Think is an Airtable and React build where the user is able to leave reviews for various forms of entertainment. From the homepage, the user is able to navigate to and click on an icon that leads to a corresponding page populated with film, television or sporting-event reviews. Each respective page will lead to a feed of past reviews and a form to create new reviews. Each review will be deletable.
+MyTutor, is a tutoring platform for mid and high school students. The Website is designed to support students with one to one tutoring sessions. Studens can search tutors related with their subjects and read information about them. if they like the portfolio of the tutor, they can purchase it online. MyTutor is open for tutor applications too. Tutors who can interested in working with us, can send their info to our Tutors database. The appication process is pretty simple. As soon as they fill out the form, they can find themselves in the tutors page. For now, there is no any sign in/sign up features yet for both tutors and students.
 
 ## Wireframes
 
-The wireframes below depict the homepage and review feed for What-cha-Think in web, tablet and phone format. The homepage contains a header displaying the app title and three clickable icons - movies, television and sports - that route to each respective review feed. The review feeds contain an input form and submit button for review data. Below the form is a feed of all past forms, along with a delete button for each post. The screens will center as screen size decreases.
+The wireframes below are high fidelity mockaps except mobile screens. The main functionalities of the website are placed at the become a tutor page and tutors page. Become a tutor page contains a form for adding a tutor in our DB. In the tutors page, there is search bar to search tutors by their lessons. Then they will click info button to show the portfolio of the tutor. And there is a book button in the portfolio section to purchase a tutoring session
 
-![imageAlt](https://i.imgur.com/IX2UVl9.png)
+https://xd.adobe.com/view/8cf91a20-a55c-48ce-9212-6093c1232e78-d9aa/?fullscreen&hints=off
 
 ## Component Hierarchy
 
